@@ -11,6 +11,10 @@ function Footer(){
           &copy;2022 Developer AbedAlqader | All Rights Reserved.
         </strong>
 
+
+
+
+
       </h5>
 
         </>
