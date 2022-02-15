@@ -1,11 +1,10 @@
-import Tours  from "../tours/Tours.js"
-import tourData from "../../data/db.json"
-import Header from "../header/Header.js"
-import Footer from '../footer/Footer.js'
-function Home(){
+import Tours from "../tours/Tours.js";
+import Header from "../header/Header.js";
+import Footer from "../footer/Footer.js";
+import tourData from "../../data/db.json";
 
-return (
-
+function Home() {
+  return (
     <>
     
 <Header/>
@@ -17,9 +16,6 @@ return (
 <Footer/>
        </>
 )
-
-
-
-}
+  }
 
 export default Home;
