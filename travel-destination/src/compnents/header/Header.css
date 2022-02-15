@@ -1,0 +1,6 @@
+.header{
+    background: rgb(27, 133, 182);
+    }
+    .header .nav-items{
+        float:inline-end;
+    }
