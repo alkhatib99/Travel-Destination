@@ -1,0 +1,9 @@
+.tour-preview
+{
+
+    display: inline-block;
+    margin: auto;
+
+    width: 100px;
+    background: #000;
+}

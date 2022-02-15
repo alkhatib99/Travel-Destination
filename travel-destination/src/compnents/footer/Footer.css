@@ -1,6 +1,6 @@
-*{
+.footer {
     display: flex;
-    
+    padding: auto;
     background-color: #4FBDBA;
     height: 100px;
         grid-column: 1/5;
@@ -15,18 +15,24 @@
     align-items: center;
     margin-bottom: 0;
     }
-    
-        footer img{
+    .footer a{
+
+        max-height: 90%;
+        margin: 0.2%;
+    }
+       .footer a  img.footer-image  {
     
             left: 100px;
-            top: 0;
-            height: 100%;    
+            height: 75%;    
             left: 100px;
             top: 0;
             width: 100px;
-            height: 95%;
          margin-right: 100px;
     
+        }
+        .footer a:hover{
+
+            transform: scale(1.5);
         }
     @media (max-width:700px) {
         .footer{

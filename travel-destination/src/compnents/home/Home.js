@@ -11,7 +11,7 @@ return (
 <Header/>
 
     </header>
-        <Tours data={tourData} />
+        <Tours data={tourData} title="All Cities" />
        
        <footer>
 

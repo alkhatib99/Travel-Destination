@@ -3,10 +3,12 @@ function Tour(props){
 
     return (
    
-        <div>
+        
+             <div className="tour-card">
         <h3> Name: {props.tour.name}</h3>
-       <a onClick={handleClick}> <img src={props.tour.image} alt=""/> </a>
+       <img src={props.tour.image} alt=""/> 
     </div>
+    
     )
 }
 

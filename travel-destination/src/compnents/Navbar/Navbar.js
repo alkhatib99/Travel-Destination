@@ -5,13 +5,13 @@ function Navbar(){
 
     return (
 
-<>
-<nav>
+<div className='nav-items'>
+<nav className='navbar'>
             <Link to="/">Home</Link>
            
 
         </nav>
-</>
+</div>
 
         
     )

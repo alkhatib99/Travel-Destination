@@ -1,17 +1,6 @@
-*{
-    display: flex;
-    
-    background-color: #4FBDBA;
-    height: 100px;
-        grid-column: 1/5;
-            align-items: center;
-            border: 1px;
-            border-style:solid;
-            width: 100%;
-            bottom: 0;
-            justify-content: space-between;
-    position:fixed;
-    
-    align-items: center;
-    margin-bottom: 0;
+.header{
+    background: rgb(27, 133, 182);
+    }
+    .header .nav-items{
+        float:inline-end;
     }
