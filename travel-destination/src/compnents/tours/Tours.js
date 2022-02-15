@@ -1,26 +1,15 @@
+import Tour from "./tour/tour.js";
 function Tours(props) {
   console.log(props);
 
-    return (
-        <>
-            {
-                props.data.map(tour => {
-
-                    return (
-
-
-                        <div>
-                            <h3> Name: {tour.name}</h3>
-                            <img src={tour.image} alt=""/>
-                        </div>
-
-                    );
-                })
-
-            }
-
-        </>
-
-    );
+  return (
+    <>
+      {
+      props.data.map((tour) => {
+        return <Tour tour={tour}  key={tour.id}/>;
+      })
+      }
+    </>
+  );
 }
 export default Tours;

@@ -1,5 +1,6 @@
 // import linkedin from "~/src/images/linkedin.png"
-import logo from "./images/linkedin.png"
+import logo from "./images/linkedin.png";
+import "Footer.css";
 function Footer(){
 
     return (
