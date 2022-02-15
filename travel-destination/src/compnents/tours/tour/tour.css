@@ -1,0 +1,7 @@
+.tour-card{
+    background: #000;
+    scroll-behavior: auto;
+    margin: auto;
+    padding: auto;
+    width: fit-content;
+}

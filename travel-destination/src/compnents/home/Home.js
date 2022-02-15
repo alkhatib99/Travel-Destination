@@ -6,15 +6,16 @@ import tourData from "../../data/db.json";
 function Home() {
   return (
     <>
-      <header>
-        <Header />
-      </header>
-      <Tours data={tourData} />
-      <footer>
-        <Footer />
-      </footer>
-    </>
-  );
-}
+    
+<Header/>
+
+      <Tours data={tourData} title="All Cities" />
+       
+   
+
+<Footer/>
+       </>
+)
+  }
 
 export default Home;

@@ -1,5 +1,10 @@
-.App {
+.Home {
   text-align: center;
+}
+.Home .tour-preview
+{
+  background: #000;
+  
 }
 
 .App-logo {
