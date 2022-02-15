@@ -7,16 +7,14 @@ function Home(){
 return (
 
     <>
-    <header>
+    
 <Header/>
 
-    </header>
-        <Tours data={tourData} title="All Cities" />
+      <Tours data={tourData} title="All Cities" />
        
-       <footer>
+   
 
 <Footer/>
-       </footer>
        </>
 )
 
